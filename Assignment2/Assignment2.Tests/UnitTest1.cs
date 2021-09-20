@@ -45,7 +45,7 @@ namespace Assignment2.Tests
             ImmutableStudent student1 = new ImmutableStudent(1, "Oscar", "Strange", new DateTime(2023, 06, 30), new DateTime(2023, 06, 30), new DateTime(2020, 09, 01));
             ImmutableStudent student2 = new ImmutableStudent(1, "Oscar", "Strange", new DateTime(2023, 06, 30), new DateTime(2023, 06, 30), new DateTime(2020, 09, 01));
 
-            Assert.False(student1 == student2);
+            Assert.True(student1 == student2);
 
         }
 
